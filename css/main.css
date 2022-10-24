@@ -87,15 +87,21 @@ body{
   margin-left: 48px;
 }
 .site-header__link{
+  padding-bottom: 35px;
   font-family: "Barlow Condensed", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 2.7px;
-  color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  transition: border .4s ease;
+  color: #fff;
+  border-bottom: 3px solid transparent;
+}
+.site-header__link:hover{
+  border-bottom: 3px solid #fff;
 }
 .site-header__span{
   font-weight: 700;
